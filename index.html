@@ -7,11 +7,37 @@
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div id="app">
+      <h1>World Clock</h1>
+      <select id="city-select">
+        <option value="" disabled selected>Select a city</option>
+        <option value="Africa/Nairobi">Nairobi</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Tokyo">Tokyo</option>
+      </select>
+      <div id="city">
+        <h2>Nairobi</h2>
+        <div class="date">December 2nd 2025</div>
+        <div class="time">11:35:25 AM</div>
+      </div>
+      <div id="city">
+        <h2>Rome</h2>
+        <div class="date">December 2nd 2025</div>
+        <div class="time">9:35:25 AM</div>
+      </div>
+    </div>
     <footer>
-      This project was coded by <a href="https://github.com/Wangeci-Linet" target="_blank">Linet Wangeci</a> and
-      is open-sourced on <a href="" target="_blank">GitHub</a>, hosted on
-      <a href="" target="_blank">Netlify</a>.
+      This project was coded by
+      <a href="https://github.com/Wangeci-Linet" target="_blank"
+        >Linet Wangeci</a
+      >
+      and is open-sourced on
+      <a href="https://github.com/Wangeci-Linet/world-clock-app" target="_blank"
+        >GitHub</a
+      >, hosted on
+      <a href="https://worldclock-application.netlify.app/" target="_blank"
+        >Netlify</a
+      >.
     </footer>
     <script src="src/index.js"></script>
   </body>
